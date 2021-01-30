@@ -3,7 +3,7 @@ from flask import Flask, request
 from pymessenger.bot import Bot
 
 app = Flask(__name__)       # Initializing our Flask application
-ACCESS_TOKEN = 'GENERATED_TOKEN_FROM_FACEBOOK'
+ACCESS_TOKEN = 'EAAYXNRGZCYRUBACoIcMZCOr95NsnA2ZBN3pNDBQmqjEYA4jVu70EjcYuwvFBTwkdFTn056S5zPN4FDIc13qFcZBi8sYhAzXZBxQPLiQFgAk2bPmllZBjzp7QHefsYZCtwsqA3u2ZCUZA1Aup0ZBZBMuvaWnk2siPTtUu9j6zQYzTuFTZBY7V5Vr4HazJ'
 VERIFY_TOKEN = 'UNIQE_TOKEN'
 bot = Bot(ACCESS_TOKEN)
 
